@@ -1,0 +1,70 @@
+*{
+	font-family: 'Bebas Neue', sans-serif;
+	text-align: center;
+}
+body{
+	display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  height: 100vh;
+		  margin: 0;
+}
+.titulo{
+	font-size: 3em;
+}
+.caja{
+	text-align: center;
+}
+.cajaDatos{
+	width: 40vw;
+	height: 75vh;
+	background-color: #FFB20A;
+	border-radius: 10px;
+}
+.textoIndicador{
+	font-size: 1.5em;
+	border-top: 30px solid #FFB20A;
+	border-bottom: 5px solid #FFB20A;
+	display: block;
+}
+.cajaTexto{
+	width: 20vw;
+	height: 5vh;
+	border-radius: 5px;
+}
+.enviarDatos{
+	display: block;
+	width: 7vw;
+	height: 6vh;
+	margin: 0 auto;
+	text-align: center;
+}
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
+input[type="submit"] {
+    background-color: #ffcc00; /* Amarillo mostaza */
+    border-color: #000000;
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    color: #fff; /* Texto en blanco */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+input[type="submit"]:hover {
+    background-color: #ff9900;
+}
